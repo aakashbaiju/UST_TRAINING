@@ -70,7 +70,7 @@ test("To check whether all departments are present",async ({page})=>
         "Dentist"
     ];
 
-     const wrapper = page.locator('#surgeries');
+    const wrapper = page.locator('#surgeries');
 
     for (const dep of departments) {
         await expect(
